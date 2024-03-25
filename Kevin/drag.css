@@ -1,0 +1,167 @@
+body{
+  background-image:url("pink.gif");
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+img{
+height: 450px;
+width: 400px;
+  border-radius: 25px;
+}
+h1 {
+  text-decoration-line: underline;
+  text-decoration-style: solid; 
+    letter-spacing: -2px;
+   color:#001b33;
+}
+p{
+   color:#001b33;
+}
+.border{
+ background-color:#3331c9;
+  width: 1350px;
+  height:215px; 
+  border:solid 4.5px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 5px ;
+}
+
+.dropbtn {
+  background-color: #ff9ec8;
+  color:#33001e;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+   overflow: hidden;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  border:solid 3.5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:#ff66a8;}
+.dropdown:hover .dropbtn {color:#33001e;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+    border-radius: 25px;
+   left: 62px;
+}
+
+img {
+  display: block;
+  width:400px;
+  height: 500px;
+   border: 4.5px solid #000000;
+    border-radius: 25px;
+  top: 300px;
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width:400px;
+  transition: .5s ease;
+  opacity:0;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  left: 300px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

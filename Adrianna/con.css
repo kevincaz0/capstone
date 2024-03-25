@@ -1,0 +1,81 @@
+.dropbtn {
+  background-color: #000000;
+  color:#fff;
+}
+
+.dropdown:hover .dropbtn {background-color: #000000ff; color:#ffffff;}
+
+body{
+  background-image: url("conbg.jpeg");
+}
+
+h1{
+  color: #000000;
+  text-align:center;
+}
+
+h2{
+  color: #858080;
+  text-align:center;
+}
+
+#p5{
+  background-color:#000000;
+  color: #acaaaa;
+  border-style: ridge;
+  border-color: #858080;
+  border-width: 6px;
+  width:70%;
+  margin:auto;
+  font-size:18px;
+  text-align:center;
+}
+
+#crc{
+  float:left;
+  margin-left:50px;
+  border-color:#858080;
+  border-width:6px;
+  border-style:ridge;
+}
+
+#crc:hover{
+  width:200px;
+  height:100px;
+  border-color:#acaaaa;
+}
+
+#bos{
+  margin:auto;
+   border-color:#858080;
+  border-width:6px;
+  border-style:ridge;
+  margin-left:50px;
+}
+
+#bos:hover{
+  width:200px;
+  height:100px;
+  border-color:#acaaaa;
+}
+  
+
+#sqr{
+  float:right;
+  margin-right:50px;
+   border-color:#858080;
+  border-width:6px;
+  border-style:ridge;
+  margin-top:-210px;
+}
+
+#sqr:hover{
+  width:200px;
+  height:100px;
+  border-color:#acaaaa;
+}
+
+
+
+
+

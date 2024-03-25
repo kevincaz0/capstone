@@ -1,0 +1,100 @@
+.dropbtn {
+  background-color: #7e3e3e;
+  color:#fff;
+}
+
+.dropdown:hover .dropbtn {background-color: #ffff; color:#7e3e3e;}
+
+body{
+  background-image: url("med.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+h1{
+  color:#562e2e;
+  text-align:center;
+}
+
+h2{
+  color:#562e2e;
+  text-align:center;
+}
+
+#p1{
+  background-color:#7e3e3e;
+  color: #b9a788;
+  border-style: ridge;
+  border-color: #936262;
+  border-width: 6px;
+  width:70%;
+  margin:auto;
+  font-size:18px;
+  text-align:center;
+}
+
+.dropdown-content a {
+  color:#7e3e3e ;
+  background-color:white;
+}
+
+#p11{
+   background-color:#7e3e3e;
+  color: #b9a788;
+  border-style: ridge;
+  border-color: #936262;
+  border-width: 6px;
+  width:50%;
+  margin:auto;
+  font-size:16px;
+  text-align:center;
+}
+
+#romeq{
+  margin-right:150px;
+  float:right; 
+  border-color:#936262;
+  border-width:6px;
+  border-style:ridge;
+}
+
+#p111{
+   background-color:#7e3e3e;
+  color: #b9a788;
+  border-style: ridge;
+  border-color: #936262;
+  border-width: 6px;
+  width:60%;
+  margin:auto;
+  font-size:16px;
+  text-align:center;
+}
+
+#romeq:hover{
+  width:300px;
+  height:150px;
+  border-color:#b9a788;
+  border-width:6px;
+  border-style:ridge;
+}
+
+#ga{
+float:left;
+  margin-left:150px;
+  border-color:#936262;
+  border-width:6px;
+  border-style:ridge;
+}
+
+#ga:hover{
+  width:300px;
+  height:150px;
+  border-color:#b9a788;
+  border-width:6px;
+  border-style:ridge;
+}
+
+
+
+
+

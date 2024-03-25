@@ -1,0 +1,140 @@
+.dropbtn {
+  background-color: #41484e;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+   overflow: hidden;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ff5789;}
+
+body{
+  background-image: url('aud.jpg')
+}
+.Runaway{
+  background-color:#ffc2d3;
+  width: 1350px;
+  height: 600px; 
+  border:double;
+  border-radius: 25px;
+  box-shadow: 10px 10px;
+}
+h1{
+  color:#41484e;
+}
+h3{
+  font-size: 25px;
+}
+.On{
+  width: 500px;
+  height:275px; 
+  background-color: #fcd1ff;
+  color: #000000;
+  float:left;
+  padding:8px;
+  margin: 55px 25px 25px 25px;
+  border-radius: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+.Donda{
+  width: 500px;
+  height:250px; 
+  background-color: #fcd1ff;
+  color: #000000;
+  float: right;
+  padding: 8px;
+  margin: 55px 25px 25px 25px;
+  border-radius: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+}
+.That{
+  width: 400px;
+  height:75px;
+  padding:5px;
+  margin: 15px 5px 15px 5px;
+  background-color:#fcd1ff;
+  border-radius:25px
+}
+.Diga{
+  background-color:#41484e;
+  width: 1411px;
+  height: 600px; 
+  border:double;
+  border-radius: 25px;
+  box-shadow: 10px 10px;
+  color:white;
+}
+.flip-box {
+  background-color: transparent;
+  width: 271.5px;
+  height: 390px;
+  border: 1px solid #41484e;
+  perspective: 1000px; 
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-box-front {
+  background-color: #41484e;
+  color: black;
+}
+.flip-box-back {
+  background-color: #fcd1ff;
+  color: #41484e;
+  transform: rotateY(180deg);
+}
+.Y{
+  float:left;
+  padding:10px;
+  margin: 25px 25px 25px 25px;
+  color: #41484e;
+  font-family: "Lucida Console", "Courier New", monospace;
+}

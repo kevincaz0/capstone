@@ -1,0 +1,94 @@
+.dropbtn {
+  background-color: #d2aca3;
+  color:#fff;
+}
+
+.dropdown:hover .dropbtn {background-color: #ffff; color:#d2aca3;}
+
+body{
+  background-image: url("mod.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.dropdown-content a {
+  color:#d2aca3;
+  background-color:white;
+}
+
+h1{
+  color:#000000;
+  text-align:center;
+}
+
+#p4{
+  background-color:#d2aca3;
+  color: #64985d;
+  border-style: ridge;
+  border-color: #64985d;
+  border-width: 6px;
+  width:70%;
+  margin:auto;
+  text-align:center;
+  font-size:18px;
+}
+
+#p44{
+  background-color:#d2aca3;
+  color: #64985d;
+  border-style: ridge;
+  border-color: #64985d;
+  border-width: 6px;
+  width:40%;
+  float:left;
+  margin-left:20px;
+  text-align:center;
+  font-size:16px;
+}
+
+h2{
+  margin-left:250px;
+}
+
+#euro{
+  margin-left:20px;
+  border-style: ridge;
+  border-color: #64985d;
+  border-width:6px;
+}
+
+#euro:hover{
+  width:220px;
+  height:150px;
+  border-color: #bdc775;
+}
+
+#nat{
+ float:right;
+  margin-right:280px;
+  margin-top:-240px;
+   border-style: ridge;
+  border-color: #64985d;
+  border-width:6px;
+}
+
+#nat:hover{
+  border-color: #bdc775;
+  width:100px;
+  height:170px;
+}
+
+#wo{
+  margin-top:-240px;
+  float:right;
+  margin-right:50px;
+   border-style: ridge;
+  border-color: #64985d;
+  border-width:6px;
+}
+
+#wo:hover{
+  border-color: #bdc775;
+  width:140px;
+  height:160px;
+}

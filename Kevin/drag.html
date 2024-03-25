@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Drag Queens</title>
+  <link rel="icon" type="image/x-icon" href="https://previews.123rf.com/images/hakkiarslan/hakkiarslan1601/hakkiarslan160100018/51690947-abstract-color-splash-watercolor-background-illustration.jpg?fj=1">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="drag.css">
+  <center>
+   <div class="dropdown">
+  <button class="dropbtn">Homepage</button>
+  <div class="dropdown-content">
+    <a href="../../index.html">Homepage</a>
+  </div>
+</div>
+  <div class="dropdown">
+  <button class="dropbtn">Music</button>
+  <div class="dropdown-content">
+       <a href="../Diego/info.html">Music Info</a>
+    <a href="../Diego/1980.html">1980's</a>
+    <a href="../Diego/1990.html">1990's</a>
+    <a href="../Diego/2000.html">2000's</a>
+    <a href="../Diego/2010.html">2010's</a>
+  </div>
+</div>
+     <div class="dropdown">
+  <button class="dropbtn">Visual/drawn art</button>
+  <div class="dropdown-content">
+       <a href="../Angelina/art.html">Visual Art Info</a>
+    <a href="../Angelina/Stoneage.html">Stoneage</a>
+    <a href="../Angelina/ancient.html">Ancient Egypt</a>
+    <a href="../Angelina/cart.html"> cartoon </a>
+    <a href="../Angelina/street.html">street art </a>
+  </div>
+</div>
+    <div class="dropdown">
+  <button class="dropbtn">Body Art</button>
+  <div class="dropdown-content">
+     <a href="../Kevin/bodyinfo.html">Body Art Info</a>
+    <a href="../Kevin/make.html">Make Up</a>
+    <a href="../Kevin/body.html"> Body Art</a>
+    <a href="../Kevin/fashion.html">Fashion</a>
+    <a href="../Kevin/drag.html">Drag Queens</a>
+  </div>
+</div>
+     <div class="dropdown">
+  <button class="dropbtn">Architecture</button>
+  <div class="dropdown-content">
+    <a href="../Adrianna/med.html">Medieval</a>
+    <a href="../Adrianna/ren.html">The Renaissance</a>
+    <a href="../Adrianna/neo.html">Neoclassicism</a>
+    <a href="../Adrianna/mod.html">Modern</a>
+     <a href="../Adrianna/con.html">Contemporary</a>
+    <a href="https://web-academy-2021.adriannasingh.repl.co/">Portfolio</a>
+  </div>
+</div>
+</center>
+</head>
+
+<body><center>
+  <br>
+  <div class="border">
+<h1>What are Drag Queens?</h1>
+<p>Drag queens is a community of people who usually is mostly male , they dress up usually like female characters , but they exaggerate their appearance so they look fierce and maybe imitating. They usually dress up to entertain people in drag shows and other things. To them it’s a way of expressing themselves through drag which would be a form of art.</p>
+<h1>These are some drag queens  
+</h1>
+  </center>  
+  </div>
+<div class="row">
+  <div class="column">
+<div class="container">
+<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2015%2F03%2Frupaul_0_0.jpg" alt="James">
+<div class="overlay">Rupaul </div>
+</div>
+  </div>
+<div class="column">
+<div class="container">
+<img src="https://alchetron.com/cdn/rick-baker-af135bc7-724a-450a-85c1-0bce914552c-resize-750.jpeg">
+<div class="overlay">Rick Baker - Movie Makeup</div>
+</div>
+</div>
+<div class="column">
+<div class="container">
+<img src="https://www.caa.com/sites/default/files/styles/headshot_500x500/public/speaker-headshots/RuPaul_Image_Web.jpg?itok=a6OUoSdc" class="Rupaul">
+<div class="overlay">Rupaul - Drag Makeup</div>
+</div>
+</div>
+</div>
+ <div class="slideshow-container">
+
+<div class="mySlides fade">
+
+  <img src="https://decider.com/wp-content/uploads/2022/03/Drag-Queens-on-The-Rules-2-.jpg?quality=75&strip=all&w=646&h=431&crop=1" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/canvas/2021/08/03/9a826e79-078f-4dd8-a603-a150f1c3e24c_ef98aa7b.jpg?itok=_rEs7wrn&v=1627973097" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="https://pyxis.nymag.com/v1/imgs/31f/7b7/658617100da7de42c26af1a58443f35394-07-drag-queens-rank-lede.rhorizontal.w1100.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+ <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+
+</html>

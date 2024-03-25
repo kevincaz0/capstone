@@ -1,0 +1,109 @@
+body{
+background-color:#cdb3ff;
+   background-image:url("https://c.tenor.com/xfsFj7A6lJMAAAAd/galaxy.gif");
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+.dropbtn {
+  background-image:url("https://c.tenor.com/xfsFj7A6lJMAAAAd/galaxy.gif");
+  color:#8e42ff;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+   overflow: hidden;
+  border-radius: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+  border:solid 3.5px;
+   box-shadow: 3px 3px 5px ;
+}
+h1 {
+  text-decoration-line: underline;
+  text-decoration-style: solid; 
+    letter-spacing: -2px;
+   color:#0b0033;
+}
+p{
+   color:#0b0033;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-image:url("https://c.tenor.com/xfsFj7A6lJMAAAAd/galaxy.gif");
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a {
+  color: #8e42ff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a:hover { background-image:url("https://c.tenor.com/xfsFj7A6lJMAAAAd/galaxy.gif");
+color: #5e2fb6;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:#54258d;}
+.dropdown:hover .dropbtn {color: #5e2fb6;}
+.border{
+ background-color:#6631c9;
+  width: 1350px;
+  height:150px; 
+  border:solid 4.5px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 5px ;
+   text-align:center;
+}
+h1 {
+  text-decoration-line: underline;
+  text-decoration-style: solid; 
+    letter-spacing: -2px;
+   color:#120033;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+   color:#120033;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+  height:500px;
+  padding: 5px;
+  left: 300px;
+  border-radius: 25px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: cover;
+  border-radius: 25px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  color:white;
+}

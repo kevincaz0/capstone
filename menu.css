@@ -1,0 +1,33 @@
+body{
+  background-image:url("https://img5.goodfon.com/original/1600x900/9/ac/wheat-field-with-cypresses-vinsent-van-gog.jpg");
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+  height:500px;
+  padding: 5px;
+  left: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  width: 450px;
+  height:550px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: cover;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  
+}
